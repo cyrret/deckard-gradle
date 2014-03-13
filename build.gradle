@@ -101,6 +101,6 @@ apply plugin: 'idea'
 
 idea {
     module {
-        testOutputDir = file('build/test-classes/debug')
+        testOutputDir = file('build/test-classes')
     }
 }
